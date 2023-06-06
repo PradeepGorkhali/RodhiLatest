@@ -1,0 +1,113 @@
+.About_us {
+  text-align: center;
+  color: black;
+  width: 100%;
+  background-color: #f1f1f1;
+  margin-top: -10px;
+  padding-top: 26px;
+}
+.about {
+  text-align: center;
+  color: black;
+  overflow-y: scroll;
+  padding: 0px 60px 0px 60px;
+}
+
+.about_heading {
+  color: #dd0c39;
+  margin-top: 1rem;
+  margin-bottom: 5px;
+  font-size: 36px;
+  font-weight: 600;
+}
+.about > p {
+  margin-top: 20px;
+  font-size: 21px;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+.readmore {
+  background-color: rgb(255, 18, 18);
+  width: 180px;
+
+  color: #ffffff;
+  padding: 10px 10px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 40px 8px;
+}
+
+.readmore:hover {
+  background-color: #fff;
+  border: 1px solid #dd0c39;
+  color: #dd0c39;
+  transition: 0.3s;
+}
+.about_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .About_us {
+    text-align: center;
+    color: black;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  .about {
+    display: none;
+  }
+  .about_mobile {
+    text-align: center;
+    color: black;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 0px;
+    display: contents;
+  }
+  .about_heading_mobile {
+    margin-top: 0px;
+    font-size: 30px;
+    line-height: 43px;
+    color: #dd0c39;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+  .about_mobile > p {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 20px 0 20px;
+    word-spacing: 0px;
+    line-height: 28px;
+    margin-bottom: 11px;
+  }
+  .about_mobile > a {
+    background-color: #ff0808;
+    width: 158px;
+    color: #ffffff;
+    padding: 13px 9px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 2px 19px 2px;
+  }
+  .about_mobile .readmore_mobile {
+    font-size: 19px;
+  }
+
+  .about_mobile > a:hover {
+    background-color: #fff;
+    border: 1px solid #dd0c39;
+    color: #dd0c39;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+}
